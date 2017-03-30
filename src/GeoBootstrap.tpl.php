@@ -15,18 +15,10 @@
 			echo "\t<link rel=\"stylesheet\" href=\"{$css}\" />\n";
 ?>
 
-	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-<?php
-//	<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-?>
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	  <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+<link rel="stylesheet" href="/components/bors-theme-geo-bootstrap/bors-theme-geo-bootstrap-built.css" />
 
 <?php
+
 	if(!empty($style))
 		echo bors_pages_helper::style($style);
 
