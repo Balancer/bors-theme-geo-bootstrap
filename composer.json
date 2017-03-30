@@ -15,5 +15,14 @@
 		"psr-4": {
 			"B2\\Theme\\": "src/"
 		}
-    }
+    },
+
+	"extra": {
+		"component": {
+			"package-asset-dir": "public",
+			"styles": [
+				"public/*.css"
+			]
+		}
+	}
 }
