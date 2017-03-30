@@ -8,7 +8,7 @@
 	],
 
 	"require": {
-		"balancer/bors-theme-bootstrap2": "*",
+		"balancer/bors-theme-bootstrap2": "*"
 	},
 
     "autoload": {
