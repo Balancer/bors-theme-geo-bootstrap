@@ -21,7 +21,10 @@
 		"component": {
 			"package-asset-dir": "public",
 			"styles": [
-				"public/*.css"
+				"public/css/*.css"
+			],
+			"files": [
+				"public/img/*"
 			]
 		}
 	}

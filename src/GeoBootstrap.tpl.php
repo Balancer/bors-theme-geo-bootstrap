@@ -15,7 +15,7 @@
 			echo "\t<link rel=\"stylesheet\" href=\"{$css}\" />\n";
 ?>
 
-<link rel="stylesheet" href="/components/bors-theme-geo-bootstrap/bors-theme-geo-bootstrap-built.css" />
+<link rel="stylesheet" href="<?=$pub?>/css/geo-bootstrap.min.css" />
 
 <?php
 
@@ -38,7 +38,7 @@
 	<!-- Fixed navbar -->
 <?php
 if(empty($navbar_classes))
-	echo "<div class=\"navbar navbar-inverse xnavbar-fixed-top\" role=\"navigation\">";
+	echo "<div class=\"navbar navbar-fixed-top\" role=\"navigation\">";
 else
 	echo "<div class=\"{$navbar_classes}\" role=\"navigation\">";
 ?>
@@ -101,6 +101,17 @@ else
 
 	<div class="container" role="main">
 
+		<table cellpadding="2" cellspacing="2">
+			<tbody>
+				<tr>
+				  <td><img src="<?=$pub?>/img/test/ie_logo.gif"></td>
+				  <td><img src="<?=$pub?>/img/test/ns_logo.gif"></td>
+				  <td><img src="<?=$pub?>/img/test/noframes.gif"></td>
+				  <td><img src="<?=$pub?>/img/test/notepad.gif"></td>
+				</tr>
+			</tbody>
+		</table>
+
 <?php if($self->page_title() || $self->description()) { ?>
 		<div class="jumbotron">
 	<?php if($self->page_title()) { ?>
@@ -113,6 +124,8 @@ else
 		<?= $self->layout()->breadcrumb(); ?>
 
 		<?= $self->body() ?>
+
+		<center><img src="<?=$pub?>/img/test/counter2.gif"></center>
 
 	</div> <!-- /container -->
 
