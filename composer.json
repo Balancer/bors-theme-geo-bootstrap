@@ -24,7 +24,8 @@
 				"public/css/*.css"
 			],
 			"files": [
-				"public/img/*"
+				"public/img/*",
+				"public/img/*/*"
 			]
 		}
 	}
