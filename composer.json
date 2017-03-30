@@ -1,0 +1,19 @@
+{
+	"name": "balancer/bors-theme-geo-bootstrap",
+	"description": "Geo for Bootstrap theme for use with BORS© framework",
+	"license": "MIT",
+
+	"authors": [
+		{ "name": "Balancer", "email": "balancer@balancer.ru" }
+	],
+
+	"require": {
+		"balancer/bors-theme-bootstrap2": "*",
+	},
+
+    "autoload": {
+		"psr-4": {
+			"B2\\Theme\\": "src/"
+		}
+    }
+}
